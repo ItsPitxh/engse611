@@ -1,0 +1,57 @@
+html{
+    font-size: 16px;
+    padding : 0px;
+    margin : 0px;
+}
+table, td {
+    border : 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    
+}
+td {
+    padding : 1rem;
+}
+
+nav {
+    display : block;
+    padding: 9px;
+    background-color : #dddddd;
+    margin-bottom : 2rem;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display : inline;
+}
+nav a {
+    padding: 8px;
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+div {
+    display : inline-block;
+    padding: 0 1rem 0 1rem;
+    background-color: #dddddd;
+    max-width: 500px;
+}
+p {
+    font-size: 16px;
+}
+
+.inner{
+    border-bottom: 1px dotted black;
+}
+.outer{
+    border-bottom: 1px dotted black;
+    padding-bottom: 2px;
+}
+
+
