@@ -43,12 +43,27 @@ nav a:hover {
    
 }
 
-div {
+.container {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.main-content {
     display : inline-block;
     padding: 0 1rem 0 1rem;
     background-color: #dddddd;
     max-width: 500px;
+    margin-bottom : 3rem;
 }
+
+.nb-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 p {
     font-size: 16px;
 }
@@ -59,6 +74,17 @@ p {
 .outer{
     border-bottom: 1px dotted black;
     padding-bottom: 2px;
+}
+
+
+
+.btn {
+    background-color: #dddddd;
+    padding: 1rem;
+}
+.btn:hover{ 
+    background-color: black;
+    color: white;
 }
 
 
