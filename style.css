@@ -21,7 +21,7 @@ td {
 
 nav {
     display : block;
-    position: absolute;
+    position: sticky;
     top: 0;
     justify-content: space-between;
     background-color : #dddddd;
