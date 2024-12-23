@@ -21,6 +21,8 @@ td {
 
 nav {
     display : block;
+    position: absolute;
+    top: 0;
     justify-content: space-between;
     background-color : #dddddd;
     margin-bottom : 2rem;
@@ -59,6 +61,10 @@ p {
 .outer{
     border-bottom: 1px dotted black;
     padding-bottom: 2px;
+}
+
+.back-btn {
+    
 }
 
 
