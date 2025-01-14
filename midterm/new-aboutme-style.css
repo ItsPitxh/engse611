@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url("img/background.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+a {
+    color : #ae0c00;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #ae0c00;
+    color: white;
+}
+.page-wrapper {
+    padding: 1rem;
+    margin: auto;
+    width: 1280px;
+}
+.main-container {
+    background-color: rgba(245, 172, 15, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(18.4px);
+    -webkit-backdrop-filter: blur(18.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+}
+
+.header {
+    text-align: end;
+    width: 100%;
+    color: white;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.main-content {
+    margin-top: 1rem;
+    width: 100%;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(255, 242, 204, 0.2);
+    border-radius: 16px;
+
+
+}
+
+.main-content > .m1 , .main-content > .m2 {
+    flex: 1;
+    margin-right: 0.5rem;
+    padding: 1rem;
+
+}
+
+
+.m1 > h3, .m2 > h3 , .m3 > h3{
+    margin : 0 0 1rem 0;
+}
+
+.m1 ul , .m2 > ul ,.m3 > ul {
+    margin: 0;
+}
+
+.m1 ol , .m2 > ol , .m3 > ol {
+    margin: 0;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(214, 232, 212, 0.45);
+    border-radius: 14px;
+    margin-top: 1rem;
+}
+
+.footer-content .m1 , .footer-content .m2, .footer-content .m3 {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content .m1 {
+    margin-right: 0.5rem;
+}
+.footer-content .m3 {
+    margin-left: 0.5rem;
+}
+
+.footer-content .m2 {
+    margin:1 0.5rem 0 0.5rem;
+}
+ .mood-img {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+ }
+.m1 > .mood-img {
+    background-image: url("img/happy.jpg");
+}
+
+.m2 > .mood-img {
+    background-image: url("img/sad.jpg");
+}
+.validator-img {
+    display : flex;
+    flex-direction: row;
+}
+

@@ -1,0 +1,37 @@
+
+table, td {
+    border : 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    
+}
+td {
+    padding : 1rem;
+}
+
+nav {
+    display : block;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color : #dddddd;
+    margin-bottom : 2rem;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li > a { 
+    display: block;
+    padding : 1rem; 
+}
+nav a:hover {
+    background-color: black;
+    color: white;
+   
+}
+
