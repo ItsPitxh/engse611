@@ -1,0 +1,52 @@
+:root {
+    --grid-size : 400px;
+    --square-size: calc((var(--grid-size) / 3) - 2px);
+}
+
+body {
+    padding: 0;
+    margin : 0;
+    background-color: black;
+}
+div {
+    margin: 0;
+}
+#grid {
+    display:flex;
+    flex-wrap: wrap;
+    height: var(--grid-size);
+    width: var(--grid-size);
+    row-gap : 0px;
+    background-color: black;
+
+}
+#grid div{
+    border: 1px solid white;
+    height: var(--square-size);
+    width: var(--square-size);
+    background-color: black;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+#grid div:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+img {
+    height: var(--square-size);
+    width: var(--square-size);
+}
+
+
+div.container {
+    display : flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+
+}
